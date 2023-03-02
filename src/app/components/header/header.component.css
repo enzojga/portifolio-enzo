@@ -12,7 +12,7 @@
     font-size: 2em;
     font-weight: 600;
     box-shadow: 0px 1px 12px 0px rgb(76 83 167 / 50%);
-    z-index: 1;
+    z-index: 3;
     border-bottom: 2px solid black;
 }
 
@@ -45,7 +45,7 @@
         position: fixed;
         top: 1px;
         right: 10px;
-        z-index: 2;
+        z-index: 4;
         display: flex;
     }
     .button-header svg {
@@ -54,6 +54,7 @@
     }
     .header {
         opacity: 0;
+        width: 0px;
     }
     .blue-container {
         display: none;
@@ -72,6 +73,7 @@
         justify-content: start;
         align-items: start;
         opacity: 100%;
+        width: 100vw;
     }
     .rotation {
         transition: .5s;

@@ -1,12 +1,3 @@
-
-.main-page {
-    max-width: 100vw;
-    height: calc(100vh - 7vh);
-    display: flex;
-    flex-direction: column;
-    margin-top: 7vh;
-}
-
 .up-page {
     width: 100%;
     height: 90%;
@@ -87,20 +78,19 @@
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     cursor: pointer;
-    color:#1F52AB;
+    color:white;
     z-index: 1;
 }
 
 .blue-containenr {
     width: 100vw;
-    height: 40%;
+    height: 80%;
     position: absolute;
-    bottom: -80px;
+    bottom: -50%;
     right: 0;
-    transform: skewY(-20deg);
+    transform: skewY(-10deg);
     background-color: #1F52AB;
     z-index: -1;
-    display: none;
 }
 
 .main-page-right img {
@@ -155,6 +145,7 @@
     }
     .blue-containenr{
         display: block;
+        transform: skewY(-20deg);
     }
     .main-page-right,
     .main-page-left {
