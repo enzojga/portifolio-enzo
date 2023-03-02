@@ -103,6 +103,17 @@
     display: none;
 }
 
+.main-page-right img {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    opacity: 0;
+    animation-name: animation-opacity;
+    animation-delay: 2.5s;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
 @keyframes show-vertical-line {
     to {
         height: 60%;
@@ -173,4 +184,9 @@
     .arrows :nth-child(1) {
         color: white;
     }
+    .main-page-right img {
+        width: 90vw;
+        height: 90vw;
+        border-radius: 50%;
+    }    
 }
