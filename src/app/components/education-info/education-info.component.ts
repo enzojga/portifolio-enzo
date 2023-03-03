@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { education, education as educationType } from 'src/app/protocols';
 
 @Component({
   selector: 'app-education-info',
@@ -6,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./education-info.component.css']
 })
 export class EducationInfoComponent {
-  
+  @Input() education: education = {
+    name: '',
+    experience: '',
+    tecnologies: [],
+    image: '',
+  }
+
+  ngOnInit() {
+    console.log(this.education)
+  }
+
 }

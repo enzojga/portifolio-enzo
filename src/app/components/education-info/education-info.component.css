@@ -5,10 +5,11 @@
     align-items: center;
 }
 
-.info img {
+.info > img {
     width: 700px;
     height: 700px;
     margin-left: 10%;
+    border-radius: 50px;
 }
 
 .info > div {
@@ -28,6 +29,7 @@
     color: white;
     font-size: 1.7em;
     margin: 20px 0 20px 0;
+    max-width: 80%;
 }
 
 .icons {
@@ -38,14 +40,15 @@
 .icon {
     width: 100px;
     height: 100px;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 @media (max-width:600px){
-    .info img {
+    .info > img {
         width: 100vw;
         height: 40%;
         margin: 0 0 20px 0;
+        border-radius: 0;
     }
     .info {
         flex-direction: column;
@@ -58,17 +61,17 @@
         justify-content: space-around;
     }
     .info p {
-        font-size: 1.3em;
+        font-size: 1.2em;
         max-width: 90%;
         margin-left: 5%;
     }
     .info h2 {
-        font-size: 1.7em;
+        font-size: 1.5em;
         margin-left: 5%;
     }
     .icon {
-        width: 75px;
-        height: 75px;
-        margin-left: 0;
+        margin-right: 0;
+        width: 60px; 
+        height: 60px;
     }    
 }
