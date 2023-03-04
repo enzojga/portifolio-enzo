@@ -1,6 +1,6 @@
-<h1 [ngStyle]="{color: project.fontColor, textDecorationColor: project.fontColor}">{{project.name}}</h1>
 <div class="info" [ngStyle]="{backgroundColor: project.backgroundColor, color: project.fontColor}">
     <div class="left-side">
+        <h1 [ngStyle]="{color: project.fontColor, textDecorationColor: project.fontColor}">{{project.name}}</h1>
         <p [ngStyle]="{color: project.fontColor}">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
             when an unknown printer took a galley of type and scrambled it to make a type 
@@ -12,5 +12,11 @@
             <img *ngFor="let icon of project.icons" src="{{icon}}" class="icon"/>
         </div>
     </div>
-    <img style="margin-left: 0;" src="../../../assets/IMG-20230206-WA0024.jpg"/>
+    <div style="width: 700px; height: 700px; margin-right: 5%;"> 
+        <swiper-container style="width: 100%; height: 100%;"  navigation="true" loop="true">
+            <swiper-slide *ngFor="let image of project.images">
+                <img src="{{image}}" class="project-image"/>
+            </swiper-slide>
+        </swiper-container>    
+    </div>
 </div>

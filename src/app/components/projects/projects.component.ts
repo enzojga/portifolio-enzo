@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { project } from 'src/app/protocols';
-import { register } from 'swiper/element/bundle';
 
 @Component({
   selector: 'app-projects',
@@ -28,7 +27,7 @@ export class ProjectsComponent {
       typesetting, remaining essentially unchanged.`,
       icons: [this.icons.javaScript],
       images: ['https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'],
-      backgroundColor: 'black',
+      backgroundColor: '#1f2123',
       fontColor: 'white',    
     },
     {
@@ -37,7 +36,7 @@ export class ProjectsComponent {
       when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
       typesetting, remaining essentially unchanged.`,
       icons: [this.icons.javaScript],
-      images: ['https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'],
+      images: [this.icons.javaScript, this.icons.node],
       backgroundColor: 'white',
       fontColor: 'black',  
     }
