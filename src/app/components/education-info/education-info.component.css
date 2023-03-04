@@ -11,10 +11,10 @@
 
 @media (max-width:600px){
     .info > img {
-        width: 100vw;
-        height: 40%;
+        width: 36vh;
+        height: 36vh;
         margin: 0 0 20px 0;
-        border-radius: 0;
+        border-radius: 10px;
     }
     .info {
         flex-direction: column;

@@ -8,4 +8,7 @@ import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
 })
 export class HomeComponent {
   faAnglesDown = faAnglesDown;
+  toEducation() {
+    document.getElementById('education')?.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
 }

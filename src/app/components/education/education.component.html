@@ -1,4 +1,4 @@
-<div [ngStyle]="{backgroundColor: color}" class="main-page">
+<div [ngStyle]="{backgroundColor: color}" class="main-page" id="education">
   <mat-tab-group [backgroundColor]="'primary'">
     <mat-tab *ngFor="let education of educations;" label='{{education.name}}'>
       <app-education-info [education]="education"></app-education-info>

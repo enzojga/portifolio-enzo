@@ -93,3 +93,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif}
     max-width: 80%;
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+* {
+    scroll-margin: 7vh;
+}
