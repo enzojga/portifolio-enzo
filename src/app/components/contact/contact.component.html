@@ -2,8 +2,13 @@
     <div class="up-page">
         <div class="main-page-left">
             <h2>Me envie uma menssagem!</h2>
-            <app-form>
+            <app-form *ngIf="!finished, else showSucess" (finishContact)="onFinishContact()">
             </app-form>
+            <ng-template #showSucess>
+                <div class="sucess-screen">
+                    <fa-icon style="color: white;" class="fa-10x fa-rotate-by-45" [icon]="faCheck"></fa-icon>
+                </div>
+            </ng-template>
         </div>
         <div class="vertical-line"></div>
         <div class="main-page-right">

@@ -44,3 +44,10 @@ button {
     text-align: center;
     cursor: pointer;
 }
+
+@media (max-width:600px){
+    .form-container{
+        width: 100vw;
+        border-radius: 0;
+    }
+}

@@ -52,3 +52,30 @@
     text-decoration: underline;
     text-decoration-color: #1F52AB;
 }
+
+.sucess-screen {
+    width: 700px;
+    height: 500px;
+    background-color: #4BB543;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:600px){
+    .main-page-right {
+        display: none;
+    }
+    .vertical-line {
+        display: none;
+    }
+    .main-page-left h2 {
+        text-align: center;
+    }
+    .sucess-screen {
+        width: 100vw;
+        border-radius: 0;
+    }
+}

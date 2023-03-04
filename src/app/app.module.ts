@@ -18,7 +18,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormComponent } from './components/form/form.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ContactComponent } from './components/contact/contact.component';
-import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -41,8 +40,7 @@ import { MatCardModule } from '@angular/material/card';
     MatTabsModule,
     CarouselModule,
     ReactiveFormsModule,
-    MatFormFieldModule,
-    MatCardModule
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent],
