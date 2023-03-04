@@ -42,6 +42,11 @@
     display: none;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 @media (max-width:600px){
     .button-header {
         position: fixed;

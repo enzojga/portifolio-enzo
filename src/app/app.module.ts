@@ -18,6 +18,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormComponent } from './components/form/form.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ContactComponent } from './components/contact/contact.component';
+import { MainScreenComponent } from './components/main-screen/main-screen.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ContactComponent } from './components/contact/contact.component';
     FooterComponent,
     FormComponent,
     ContactComponent,
+    MainScreenComponent,
   ],
   imports: [
     BrowserModule,
