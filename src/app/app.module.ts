@@ -14,6 +14,11 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { CarouselModule } from '@coreui/angular';
 import { ProjectInfoComponent } from './components/project-info/project-info.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormComponent } from './components/form/form.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { ContactComponent } from './components/contact/contact.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -25,6 +30,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ProjectsComponent,
     ProjectInfoComponent,
     FooterComponent,
+    FormComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +40,9 @@ import { FooterComponent } from './components/footer/footer.component';
     FontAwesomeModule,
     MatTabsModule,
     CarouselModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent],

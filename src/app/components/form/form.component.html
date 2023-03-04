@@ -1,0 +1,11 @@
+<div class="form-container">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <label>Nome</label>
+            <input formControlName="name">
+            <label>Menssagem</label>
+            <input formControlName="message">
+            <label>E-mail</label>
+            <input formControlName="email">
+            <button>Enviar</button>
+    </form>
+</div>

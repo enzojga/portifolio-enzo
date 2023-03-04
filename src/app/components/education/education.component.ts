@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { icon } from '@fortawesome/fontawesome-svg-core';
 import { education } from 'src/app/protocols';
 
 @Component({
