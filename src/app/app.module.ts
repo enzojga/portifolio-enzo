@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -10,6 +10,9 @@ import { HomeComponent } from './components/home/home.component';
 import { EducationComponent } from './components/education/education.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { EducationInfoComponent } from './components/education-info/education-info.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { CarouselModule } from '@coreui/angular';
+import { ProjectInfoComponent } from './components/project-info/project-info.component';
 
 @NgModule({
   declarations: [
@@ -18,15 +21,19 @@ import { EducationInfoComponent } from './components/education-info/education-in
     HomeComponent,
     EducationComponent,
     EducationInfoComponent,
+    ProjectsComponent,
+    ProjectInfoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
-    MatTabsModule
+    MatTabsModule,
+    CarouselModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

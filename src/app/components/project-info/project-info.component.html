@@ -1,0 +1,16 @@
+<h1 [ngStyle]="{color: project.fontColor, textDecorationColor: project.fontColor}">{{project.name}}</h1>
+<div class="info" [ngStyle]="{backgroundColor: project.backgroundColor, color: project.fontColor}">
+    <div class="left-side">
+        <p [ngStyle]="{color: project.fontColor}">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type 
+            specimen book. It has survived not only five centuries, but also the leap into 
+            electronic typesetting, remaining essentially unchanged. 
+        </p>
+        <h2 [ngStyle]="{color: project.fontColor, textDecorationColor: project.fontColor}">Tecnologias que utilizei:</h2>
+        <div class="icons">
+            <img *ngFor="let icon of project.icons" src="{{icon}}" class="icon"/>
+        </div>
+    </div>
+    <img style="margin-left: 0;" src="../../../assets/IMG-20230206-WA0024.jpg"/>
+</div>
