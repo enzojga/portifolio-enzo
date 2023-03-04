@@ -13,6 +13,7 @@ import { EducationInfoComponent } from './components/education-info/education-in
 import { ProjectsComponent } from './components/projects/projects.component';
 import { CarouselModule } from '@coreui/angular';
 import { ProjectInfoComponent } from './components/project-info/project-info.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ProjectInfoComponent } from './components/project-info/project-info.com
     EducationInfoComponent,
     ProjectsComponent,
     ProjectInfoComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
