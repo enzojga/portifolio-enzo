@@ -1,13 +1,13 @@
 <div class="header" [ngClass]="mobileHeader()">
     <span class="blue-container">
-        Contato
+        Home
     </span>
     <div>
         <h3>Educação</h3>
         <h3>Tecnologias</h3>
-        <h3>Projetos</h3>
+        <h3>Contato</h3>
     </div>
 </div>
-<div class="button-header rotation" (click)="changeShowMobileHeader()">
+<div class="button-header" [ngClass]="class" (click)="changeShowMobileHeader()">
     <fa-icon style="color: #1F52AB; --fa-rotate-angle: 120deg;" class="fa-3x fa-rotate-by-45" [icon]="faXmark "></fa-icon>
 </div>

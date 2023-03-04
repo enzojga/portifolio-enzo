@@ -22,9 +22,11 @@
     background-color: #1F52AB;
     color: white;
     border-radius: 50px;
-    text-align: center;
     cursor: pointer;
     font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header div {
@@ -47,14 +49,16 @@
         right: 10px;
         z-index: 4;
         display: flex;
+        transition: .5s all;
+        transform: rotateZ(0deg);
     }
     .button-header svg {
         width: 50px;
         height: 50px;
     }
     .header {
-        opacity: 0;
-        width: 0px;
+        width: 0%;
+        display: none;
     }
     .blue-container {
         display: none;
@@ -69,10 +73,10 @@
         font-size: 1em;
     }
     .mobile-header {
+        display: flex;
         min-height: 20vh;
         justify-content: start;
         align-items: start;
-        opacity: 100%;
         width: 100vw;
     }
     .rotation {

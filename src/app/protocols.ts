@@ -5,11 +5,12 @@ export type education = {
     image: string
 }
 
-export interface project  {
+export type project = {
     name: string,
     description: string,
     icons: string[],
     images: string[],
     backgroundColor: string,
-    fontColor: string
+    fontColor: string,
+    repositorie: string
 }

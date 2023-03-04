@@ -9,7 +9,7 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons';
 export class HeaderComponent {
   showMobileHeader: boolean = false;
 
-  angle: number = 45;
+  class = ['rotation'];
 
   faXmark = faXmark;
 
@@ -22,6 +22,10 @@ export class HeaderComponent {
 
   changeShowMobileHeader(): void {
     this.showMobileHeader = !this.showMobileHeader;
-    this.angle = this.angle * 2;
+    if(this.class[0]){
+      this.class.pop();
+    } else {
+      this.class.push('rotation');
+    }
   }
 }
