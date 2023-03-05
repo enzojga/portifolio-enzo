@@ -7,7 +7,6 @@ Portifólio para o desafio técnico da Enacom.
 http://100.26.246.102/
 
 ## Como rodar
-### O que é necessario:
 
 - Maquina local.
 
