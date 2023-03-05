@@ -5,4 +5,4 @@ services:
     image: portifolio
     build: .
     ports:
-      - 8031:80
+      - "80:80"

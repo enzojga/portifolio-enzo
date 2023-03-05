@@ -4,8 +4,8 @@
 }
 
 .icon {
-    width: 100px;
-    height: 100px;
+    width: 5vw;
+    height: 5vw;
     margin-right: 20px;
 }
 
@@ -29,11 +29,11 @@
     .info p {
         font-size: 1.2em;
         max-width: 90%;
-        margin-left: 5%;
+        margin-left: 2%;
     }
     .info h2 {
         font-size: 1.5em;
-        margin-left: 5%;
+        margin-left: 2%;
     }
     .icon {
         margin-right: 0;

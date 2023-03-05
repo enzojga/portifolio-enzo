@@ -2,7 +2,7 @@
     <img src='{{education.image}}' />
     <div class="right-side">
         <h2>Minha experiência:</h2>
-        <p>{{education.experience}}</p>
+        <p id="experience">{{education.experience}}</p>
         <h2>Tecnologias que tive contato:</h2>
         <div class="icons">
             <img *ngFor="let icon of education.tecnologies" src="{{icon}}" class="icon"/>

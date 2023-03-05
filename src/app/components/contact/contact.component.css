@@ -7,8 +7,8 @@
 }
 .main-page-right,
 .main-page-left {
-    width: 700px;
-    height: 700px;
+    width: 35vw;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,8 +31,8 @@
     margin-bottom: 20px;
 }
 .social {
-    width: 700px;
-    height: 500px;
+    width: 35vw;
+    height: 40vh;
     background-color: white;
     border-radius: 50px;
     display: flex;
@@ -41,21 +41,21 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .social img {
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
 }
 .social h2 {
     color: #1F52AB;
     font-weight: 800;
     text-align: center;
-    font-size: 1.7em;
+    font-size: 1em;
     text-decoration: underline;
     text-decoration-color: #1F52AB;
 }
 
 .sucess-screen {
-    width: 700px;
-    height: 500px;
+    width: 35vw;
+    height: 40vh;
     background-color: #4BB543;
     border-radius: 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -78,4 +78,8 @@
         width: 100vw;
         border-radius: 0;
     }
+    .main-page-left h2 {
+        font-size: 1em;
+        width: 100vw;
+    }    
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -6,7 +6,7 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit{
   showMobileHeader: boolean = false;
 
   class = ['rotation'];
@@ -27,5 +27,9 @@ export class HeaderComponent {
     } else {
       this.class.push('rotation');
     }
+  }
+
+  ngOnInit() {
+    console.log('iniciado');
   }
 }

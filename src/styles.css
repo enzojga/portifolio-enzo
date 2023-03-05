@@ -54,7 +54,7 @@ table {
     height: calc(100vh - 7vh);
     display: flex;
     flex-direction: column;
-    margin-top: 7vh;
+    padding-top: 7vh;
 }
 
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif}
@@ -67,10 +67,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif}
 }
 
 .info > img {
-    width: 700px;
-    height: 700px;
+    width: 33vw;
+    height: 33vw;
     margin-left: 10%;
-    border-radius: 50px;
+    border-radius: 100%;
 }
 
 .info > div {
@@ -81,14 +81,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif}
     color: white;
     text-decoration: underline;
     text-decoration-color: white;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .info p {
     color: white;
-    font-size: 1.7em;
+    font-size: 1.1em;
     margin: 20px 0 20px 0;
-    max-width: 80%;
+    width: 100%;
 }
