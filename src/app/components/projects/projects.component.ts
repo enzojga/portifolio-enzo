@@ -67,7 +67,7 @@ export class ProjectsComponent {
       repositorie: 'https://github.com/orgs/Real-Driven-t/repositories',
     },
     {
-      name: 'TrakIt',
+      name: 'TrackIt',
       description: `TrackIt é uma aplicação web com o objetivo de ajudar a criar novos hábitos e 
         manter os antigos, ele também mantém uma sequência de dias em que o hábito foi executado. 
         Para desenvolver o projeto eu recebi um esquema no figma de como o projeto deveria se parecer 
