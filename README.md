@@ -2,6 +2,9 @@
 
 Portifólio para o desafio técnico da Enacom.
  
+ 
+ ## Deploi na AWS
+http://100.26.246.102/
 
 ## Como rodar
 ### O que é necessario:
