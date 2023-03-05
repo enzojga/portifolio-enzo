@@ -6,7 +6,7 @@
         </p>
         <h2 *ngIf="project.icons[0], else showLinkedin" [ngStyle]="{color: project.fontColor, textDecorationColor: project.fontColor}">Tecnologias que utilizei:</h2>
         <ng-template #showLinkedin>
-            <a href="https://www.linkedin.com/mwlite/in/enzo-araujo-b8422318a" target="_blank" alt="github">
+            <a href="https://www.linkedin.com/mwlite/in/enzo-araujo-b8422318a" target="_blank" alt="linkedin">
                  <h2>Linkedin</h2>
             </a>
         </ng-template>
@@ -18,6 +18,11 @@
         <swiper-container style="width: 100%; height: 100%;"  navigation="true" loop="true" >
             <swiper-slide *ngFor="let image of project.images">
                 <img src="{{image}}" class="project-image" alt="images do projeto"/>
+            </swiper-slide>
+            <swiper-slide>
+                <a href={{project.repositorie}} target="_blank" alt="github">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" class="project-image" alt="github"/>
+                </a>
             </swiper-slide>
         </swiper-container>    
     </div>

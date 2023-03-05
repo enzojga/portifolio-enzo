@@ -92,7 +92,7 @@ export class ProjectsComponent {
         gostei de trabalhar. Então, caso queira conhecer mais sobre mim, sinta-se livre para visitar 
         meu GitHub ou me chamar no LinkedIn.`,
       icons: [],
-      images: [this.icons.gitHub],
+      images: [],
       backgroundColor: '#1F52AB',
       fontColor: 'white',
       repositorie: 'https://github.com/enzojga/'
