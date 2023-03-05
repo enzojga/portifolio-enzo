@@ -1,27 +1,51 @@
-# PortifolioEnzo
+# Portifólio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+Portifólio para o desafio técnico da Enacom.
+ 
 
-## Development server
+## Como rodar
+### O que é necessario:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Maquina local.
 
-## Code scaffolding
+1. Clonar o repositório.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```git clone https://github.com/enzojga/portifolio-enzo.git```
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Instalar depêndencias.
 
-## Running unit tests
+```npm install```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Iniciar servidor.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```npm start```
 
-## Further help
+3. Acessar o localhost na porta 4200 no navegador.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+- Docker.
+
+1. Clonar o repositório.
+
+
+```git clone https://github.com/enzojga/portifolio-enzo.git```
+
+
+2. Na pasta do repositório rodar o comando:
+
+
+```docker-compose up --build```
+
+3. Acessar o localhost no navegador.
+
+
+## Tecnologias utilizadas
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" width="52" alt="angular logo"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" width="52" alt="typescript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" width="52" alt="docker logo"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="40" width="52" alt="nginx logo"/>
+</div>
