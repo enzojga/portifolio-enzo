@@ -1,7 +1,7 @@
 <header class="header" [ngClass]="mobileHeader()">
-    <span class="blue-container">
+    <a routerLink=""><span class="blue-container">
         Home
-    </span>
+    </span></a>
     <div>
         <a routerLink="education"><h3>Educação</h3></a>
         <a routerLink="projects"><h3>Projetos</h3></a>
@@ -9,5 +9,5 @@
     </div>
 </header>
 <div class="button-header" role="button" [ngClass]="class" (click)="changeShowMobileHeader()">
-    <fa-icon style="color: #1F52AB; --fa-rotate-angle: 120deg;" class="fa-3x fa-rotate-by-45" [icon]="faXmark "></fa-icon>
+    <fa-icon style="color: #1F52AB;" class="fa-3x fa-rotate-by-45" [icon]="faXmark "></fa-icon>
 </div>
