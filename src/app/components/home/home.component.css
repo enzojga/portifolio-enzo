@@ -94,8 +94,8 @@
 }
 
 .main-page-right img {
-    width: 35vw;
-    height: 35vw;
+    width: 25vw;
+    height: 25vw;
     border-radius: 50%;
     opacity: 0;
     animation-name: animation-opacity;
